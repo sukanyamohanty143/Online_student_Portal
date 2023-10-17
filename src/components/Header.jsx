@@ -10,7 +10,7 @@ export default function Header() {
                 <IconButton size='large' edge='start' color='inherit' aria-label='logo'>
                     <ShoppingCartOutlinedIcon />
                 </IconButton>
-                <Typography variant='h6' component='div' sx={{ flexGrow: 1 }}>
+                <Typography variant='h5' component='div' sx={{ flexGrow: 1 }}>
                     Shopsy
                 </Typography>
                 <Stack direction='row' spacing={2}>

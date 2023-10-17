@@ -21,9 +21,11 @@ export default function Home() {
         getData()
     }, []);
 
+
+
     return (
         <>
-            <Grid container spacing={3}>
+            <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
                 {
                     itemArr.map((item, index) => (
                         <Grid item key={index} xs={12} sm={6} md={4}>
@@ -39,6 +41,7 @@ export default function Home() {
                     ))
                 }
             </Grid>
+          
         </>
     )
 }
